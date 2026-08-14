@@ -1,0 +1,7 @@
+list=[12,34,2,45,67,13]
+largest=list[0]
+for i in list:
+    if i>largest:
+        largest=i
+print('The largest element is =',largest)
+        
